@@ -1,0 +1,2 @@
+last_updated_epoch,last_updated,temp_c,temp_f,is_day,condition,wind_mph,wind_kph,wind_degree,wind_dir,pressure_mb,pressure_in,precip_mm,precip_in,humidity,cloud,feelslike_c,feelslike_f,windchill_c,windchill_f,heatindex_c,heatindex_f,dewpoint_c,dewpoint_f,vis_km,vis_miles,uv,gust_mph,gust_kph
+1732605300,2024-11-26 15:15,0.0,80.6,1,"{'text': 'Light rain', 'icon': '//cdn.weatherapi.com/weather/64x64/day/296.png', 'code': 1183}",5.8,0.0,24,NNE,1005.0,29.68,0.69,0.03,89,25,30.9,87.5,28.0,82.5,33.1,91.7,25.2,77.3,10.0,6.0,7.4,7.8,12.5
