@@ -1,0 +1,19 @@
+stages:
+  collect_data:
+    cmd: python rawdata.ipynb
+    deps:
+    - rawdata.ipynb
+    outs:
+    - rawdata.csv
+  preprocess_data:
+    cmd: python processing.ipynb
+    deps:
+    - rawdata.csv
+    outs:
+    - processeddata.csv
+  train_model:
+    cmd: python modeltraining.ipynb
+    deps:
+    - processeddata.csv
+    outs:
+    - model.pkl
